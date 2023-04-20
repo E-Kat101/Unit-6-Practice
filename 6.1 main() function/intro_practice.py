@@ -43,3 +43,16 @@ def greet():
 if __name__ == "__main__":
     greet()
     main()
+
+# Ticket Prices
+PRICE_PER_TICKET = 13.95
+
+def main():
+    many_tickets = int(input("How many tickets would you like? "))
+
+    total = many_tickets * PRICE_PER_TICKET
+
+    print(f"The total for {many_tickets} tickets is ${(round)(total, 2)}")
+
+if __name__ == "__main__":
+    main()
