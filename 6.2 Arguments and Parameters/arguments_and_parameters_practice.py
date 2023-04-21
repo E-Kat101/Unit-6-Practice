@@ -19,3 +19,10 @@ def num_chairs(tables, chairs_per_table):
 
 
 num_chairs(4, 5)
+
+# 2. Create a function that takes one integer argument and simply prints it out. Call this function print_integer.
+def print_integer(n):
+    print(n)
+
+if __name__ == "__main__":
+    print_integer(5)
