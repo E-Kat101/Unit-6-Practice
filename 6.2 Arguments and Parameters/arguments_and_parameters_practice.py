@@ -62,3 +62,12 @@ activate_thrusters(80)
 # or
 if __name__ == "__main__":
     activate_thrusters(80)
+
+    
+# 6. What is wrong with how the code below calls a function that takes a name and how many apples that person will eat? Give an example of the correct way to do it.
+# person_apples
+
+# The code does not involve the two arguments in the brackets that have to come after the function. The first argument should be a string that is a name, and the second argument should be the integer value of how many apples the person will eat.
+# Also, it is best practice to use the if __name__ == "__main__": statement to call functions.
+if __name__ == "__main__":
+    person_apples("George", 23)
