@@ -28,7 +28,6 @@ if __name__ == "__main__":
     print_integer(5)
 
 # 3. Create a function that takes two integer arguments and prints out their difference. You can use math.abs() for absolute value.
-
 def subtract(a, b):
     difference = abs(b - a)
 
