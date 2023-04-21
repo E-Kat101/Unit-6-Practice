@@ -20,6 +20,7 @@ def num_chairs(tables, chairs_per_table):
 
 num_chairs(4, 5)
 
+
 # 2. Create a function that takes one integer argument and simply prints it out. Call this function print_integer.
 def print_integer(n):
     print(n)
@@ -27,6 +28,7 @@ def print_integer(n):
 if __name__ == "__main__":
     print_integer(5)
 
+    
 # 3. Create a function that takes two integer arguments and prints out their difference. You can use math.abs() for absolute value.
 def subtract(a, b):
     difference = abs(b - a)
@@ -34,3 +36,19 @@ def subtract(a, b):
     print(difference)
 
 subtract(-5, 4)
+
+
+# 4. List the two things wrong with the following code and how to fix it.
+
+# function subtract(a):
+# That is not the proper way to define a function
+# There is only one parameter, but two arguments
+#     print(a - b)
+   
+
+# subtract(5, 7)
+
+def subtract(a, b):
+    print(a - b)
+
+subtract(5, 7)
