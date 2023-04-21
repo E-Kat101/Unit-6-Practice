@@ -52,3 +52,13 @@ def subtract(a, b):
     print(a - b)
 
 subtract(5, 7)
+
+
+# 5. How would you call the following function? Give two examples.
+def activate_thrusters(percent_power):
+    pass
+
+activate_thrusters(80)
+# or
+if __name__ == "__main__":
+    activate_thrusters(80)
